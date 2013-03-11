@@ -10,7 +10,7 @@ void draw() {
     beginRecord(PDF, "pdf/week_01_####.pdf");
   }
   background(0);
-  rect(0, 416, 640, 224);
+  rect(-1, 416, 641, 224);
   ellipse(429, 522, 309, 136);
   triangle(66, 512, 409, 512, 372, 350);
   if (save_pdf) {
